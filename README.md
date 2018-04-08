@@ -2,7 +2,6 @@
 a psychometric questionnaire 
 
 > A Vue.js project
->>>>>>> 058e5855ac4711fac0799ca54fb84e8fba90595f
 
 ## Build Setup
 
