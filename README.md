@@ -1,7 +1,7 @@
 # Questionnaire
 a psychometric questionnaire 
 
-> A Vue.js project
+ A Vue.js project
 
 ## Build Setup
 
