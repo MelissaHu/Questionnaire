@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# questionnaire
-
-> a new questionnaire
-=======
 # Questionnaire
 a psychometric questionnaire 
 
