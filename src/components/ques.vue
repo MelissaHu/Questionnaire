@@ -9,11 +9,17 @@
                        :nativeValue="labels.ans"
                         :name="'goup'+index" class="demo-radio"/>
          </div>
+          <ques-footer :value="num"></ques-footer>
      </div>
+     
 </template>
 
 <script>
+import QuesFooter from './footer'
 export default {
+  components:{
+    QuesFooter
+  },
   data() {
     return {
       picked:[],
@@ -60,19 +66,24 @@ export default {
         }
       ]
     };
-  },watch:{
-    picked(val){
-      console.log(val);
+  },
+  computed:{
+    num(){
+      // const filterFunc = item=>!!item
+      const filterFunc = function (item){
+        return !!item
+      }.bind(this)
+      const val =  parseInt(this.picked.filter(filterFunc).length*100 /this.items.length,10)
+      return val;
     }
   }
 };
 </script>
 <style  scoped>
-.items{
-  padding:15px;
-}
+
 .itemBox{
   text-align: left;
+  padding:15px;
 }
 .itemBox > label{
   margin-right: 25px;
