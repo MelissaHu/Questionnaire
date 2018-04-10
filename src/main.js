@@ -6,6 +6,8 @@ import router from './router'
 import axios from 'axios'
 import MuseUI from 'muse-ui'
 import '../static/muse-ui.css'
+import '../static/theme-carbon.css'
+import '../static/reset.css'
 
 
 
