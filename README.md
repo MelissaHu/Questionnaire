@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 # Questionnaire
 a psychometric questionnaire 
 
  A Vue.js project
-=======
-
-# Questionnaire
-a psychometric questionnaire 
-
-A Vue.js project
->>>>>>> Stashed changes
 
 ## Build Setup
 
