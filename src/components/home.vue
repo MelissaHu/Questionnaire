@@ -1,50 +1,29 @@
 <template>
   <div class="layout">
        <qus-header></qus-header>
-       <div class="container">
-       <qus-title></qus-title>
        <div class="content">
-            <mu-float-button icon="Go" secondary class="demo-float-button" @click="startDo"/>
-       </div>
+        <router-view></router-view> 
        </div>
   </div>
 </template>
 
 <script>
-import QusHeader from './header'
-import QusTitle from './title'
+import QusHeader from './common/header'
 export default {
   name: 'home',
   components:{
-    QusHeader,QusTitle
-  },
- methods:{
-    startDo:function(){
-       this.$router.push({path:'./ques'})
-    }
+    QusHeader
   }
-
 }
 </script>
 
 
-<style scoped>
+<style>
 
 .content{
-  height:100px;
-  width:100px;
-  position: absolute;
-  top:80%;
-  left:50%;
-  margin:-50px 0 0 -50px;
+  margin-top:10%;
 }
 
-.tips{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 
 </style>

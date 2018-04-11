@@ -12,9 +12,16 @@ export default new Router({
         }, {
             path: '/home',
             component: resolve => require(['../components/home'], resolve),
-        }, {
-            path: '/ques',
-            component: resolve => require(['../components/ques'], resolve)
+            children: [{
+                path: '',
+                component: resolve => require(['../components/tips'], resolve),
+            }, {
+                path: '/list',
+                component: resolve => require(['../components/list'], resolve)
+            }, {
+                path: './score',
+                component: resolve => require(['../components/score'], resolve)
+            }]
         }
 
     ]

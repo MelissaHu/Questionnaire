@@ -6,7 +6,38 @@
     font-weight: 800!important;
 }
 
+.mu-card {
+    padding: 3% 1%;
+}
+
 .mu-card>p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mu-radio {
+    display: block;
+    padding-left: 10%;
+    margin-bottom: 12px;
+}
+
+.mu-radio-label {
+    text-align: left;
+    color: #222;
+    font-size: 16px;
+}
+
+.mu-radio-icon {
+    cursor: pointer;
+}
+
+.mu-radio-ripple-wrapper {
+    left: 22px;
 }
