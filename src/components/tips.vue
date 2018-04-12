@@ -2,8 +2,9 @@
    <div class="container">
    <mu-card>
    <h1>温馨提示<i>!</i></h1>
-   <p>这是一组欧洲流行的测试题,可口可乐公司、麦当劳公司、诺基亚分司等世界500强众多企业，曾以此为员工EQ测试的模板。
-       帮助员工了解自己的EQ状况。共33题，测试时间25分钟，最大EQ为174分。如果你已经准备就绪，请点击下面按钮开始。</p>
+   <p style="text-indent: 2em;text-align:left;">这是一组超级棒棒的题目，由于答题后不能返回修改，所以请再答题时候认真思考!</p>
+   <p style="text-indent: 2em;text-align:left;">计算得分的规则是答对一题得1分，打错得0分。</p>
+   <p>准备好了，请点击下面按钮开始。</p>
    </mu-card>
    <div class="startBtn">
        <mu-raised-button label="开始答题" class="demo-raised-button" secondary @click="goStart"/>

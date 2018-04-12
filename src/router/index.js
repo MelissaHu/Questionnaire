@@ -19,7 +19,7 @@ export default new Router({
                 path: '/list',
                 component: resolve => require(['../components/list'], resolve)
             }, {
-                path: './score',
+                path: '/score',
                 component: resolve => require(['../components/score'], resolve)
             }]
         }
